@@ -1,10 +1,8 @@
 <?php /** @noinspection SpellCheckingInspection */
 
-namespace BABA\Doctrine\ORM;
+namespace Doctrine\ORM;
 
 use Doctrine\Common\Collections\Criteria;
-use Doctrine\ORM\EntityManagerInterface;
-use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\Mapping;
 
 class RedisRepository extends EntityRepository

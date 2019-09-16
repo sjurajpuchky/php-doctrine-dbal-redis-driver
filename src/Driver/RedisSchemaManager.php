@@ -1,7 +1,7 @@
 <?php /** @noinspection SpellCheckingInspection */
 
 
-namespace BABA\Doctrine\DBAL\Driver\Redis;
+namespace Doctrine\DBAL\Driver\Redis;
 
 
 use Doctrine\DBAL\Schema\AbstractSchemaManager;

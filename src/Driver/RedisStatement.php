@@ -1,6 +1,6 @@
 <?php
 
-namespace BABA\Doctrine\DBAL\Driver\Redis;
+namespace Doctrine\DBAL\Driver\Redis;
 
 use Doctrine\DBAL\Driver\Statement;
 use Doctrine\DBAL\Driver\StatementIterator;

@@ -10,8 +10,9 @@
     },
     "autoload": {
         "psr-4": {
-            "BABA\\Doctrine\\DBAL\\Driver\\Redis\\": "src/Driver/",
-            "BABA\\Doctrine\\ORM\\": "src/ORM/"
+            "Doctrine\\DBAL\\Driver\\Redis\\": "src/Driver/",
+            "Doctrine\\ORM\\": "src/ORM/",
+            "Doctrine\\DBAL\\Platforms": "src/Platforms/"
         }
     },
     "provide": {

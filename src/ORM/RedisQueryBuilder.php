@@ -1,7 +1,7 @@
 <?php /** @noinspection SpellCheckingInspection */
 
 
-namespace BABA\Doctrine\ORM;
+namespace Doctrine\ORM;
 
 
 use Doctrine\Common\Collections\Criteria;
