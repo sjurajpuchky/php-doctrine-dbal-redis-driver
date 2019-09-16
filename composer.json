@@ -1,0 +1,28 @@
+{
+    "name": "baba/php-doctrine-dbal-redis-driver",
+    "description": "Simple implementation of Doctrine DBAL Driver for redis",
+    "type": "library",
+    "require": {
+        "doctrine/dbal": "*",
+        "doctrine/orm": "*",
+        "php": ">=7.3.0",
+        "ext-redis": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BABA\\Doctrine\\DBAL\\Driver\\Redis\\": "src/Driver/",
+            "BABA\\Doctrine\\ORM\\": "src/ORM/"
+        }
+    },
+    "provide": {
+        "baba/php-doctrine-dbal-redis-driver": "1.0.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juraj Puchký",
+            "email": "info@baba.bj"
+        }
+    ],
+    "minimum-stability": "dev"
+}
